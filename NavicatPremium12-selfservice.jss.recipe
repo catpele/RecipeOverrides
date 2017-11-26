@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.jss.IntelliJIDEAUltimate-selfservice</string>
+	<string>local.jss.NavicatPremium12-selfservice</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>IDEs and Text Editors</string>
+		<string>Utility</string>
 		<key>GROUP_NAME</key>
 		<string></string>
 		<key>GROUP_TEMPLATE</key>
 		<string></string>
 		<key>POLICY_CATEGORY</key>
-		<string>IDEs and Text Editors</string>
+		<string>Utility</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-selfservice.xml</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.catpele.jss.IntelliJIDEAUltimate</string>
+	<string>com.github.catpele.jss.NavicatPremium12</string>
 </dict>
 </plist>
