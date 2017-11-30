@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.jss.iTerm-autoupdate</string>
+	<string>local.jss.OracleJava8JDK-autoupdate</string>
 	<key>Input</key>
 	<dict>
 		<key>GROUP_NAME</key>
@@ -16,6 +16,6 @@
 		<string>PolicyTemplate-autoupdate.xml</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.jss-recipes.jss.iTerm2</string>
+	<string>com.github.jss-recipes.jss.OracleJava8JDK</string>
 </dict>
 </plist>
