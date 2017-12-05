@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.jss.OracleJava8JDK-autoupdate</string>
+	<string>local.jss.Postman-selfservice</string>
 	<key>Input</key>
 	<dict>
+		<key>CATEGORY</key>
+		<string>IDEs and Text Editors</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-autoupdate</string>
+		<string></string>
 		<key>GROUP_TEMPLATE</key>
-		<string>OracleJava8JDKSmartGroupTemplate-autoupdate.xml</string>
+		<string></string>
 		<key>POLICY_CATEGORY</key>
-		<string>Auto Update</string>
+		<string>IDEs and Text Editors</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate-autoupdate.xml</string>
+		<string>PolicyTemplate-selfservice.xml</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.jss-recipes.jss.OracleJava8JDK</string>
+	<string>com.github.catpele.jss.Postman</string>
 </dict>
 </plist>
