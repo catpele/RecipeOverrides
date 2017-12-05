@@ -11,7 +11,7 @@
 		<key>GROUP_NAME</key>
 		<string></string>
 		<key>GROUP_TEMPLATE</key>
-		<string></string>
+		<string>OracleJava8JDKSmartGroupTemplate-autoupdate.xml</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Utility</string>
 		<key>POLICY_TEMPLATE</key>
