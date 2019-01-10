@@ -16,8 +16,45 @@
 		<string>Virtual Machines</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-selfservice.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.VirtualBox</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.VirtualBox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/VirtualBox/VirtualBox.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>ea08dbc5540584ea8100be8cc0ba53a820be98a060588c293013cd2ea4065f5a</string>
+			</dict>
+			<key>com.github.sheagcraig.download.VirtualBox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9ab779e14b43820e8868ab45193cb7925158859d</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes/VirtualBox/VirtualBox.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>671f98dc3d5b077cadc85a6b0118926d18b40be274b69df946199f898a17534f</string>
+			</dict>
+			<key>com.github.sheagcraig.pkg.VirtualBox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>13fef4ea366eaeba5bfb1f3bf9b952b3a07abc49</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes/VirtualBox/VirtualBox.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>1fa9740264ce79350234fd39569a2f39f56bd866ff2912a87f2158dabfbd8f85</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

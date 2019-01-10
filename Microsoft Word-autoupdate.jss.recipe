@@ -14,8 +14,55 @@
 		<string>Auto Update</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-autoupdate.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.MicrosoftWord</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>MSOffice2016URLandUpdateInfoProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cf237064bf6bd16ba91156cfb3eadb0f17b36195</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOffice2016URLandUpdateInfoProvider.py</string>
+				<key>sha256_hash</key>
+				<string>dd9dc81f4387fd8d72e641db43356275f76a9143ae0851c186250586bcda8e8d</string>
+			</dict>
+			<key>com.github.jss-recipes.MSOffice2016VersionChecker/MSOffice2016VersionChecker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f14f07547c557c61dd97a815b73ed997d9607dd8</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/MSOffice2016VersionChecker/MSOffice2016VersionChecker.py</string>
+				<key>sha256_hash</key>
+				<string>fd547c498cd2ec81f46080a99757a1ce9ac955881b7aab9affd7a6a0dd8a4de8</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.MSWord2016</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f9b3e4faca9144c984664ce5250836ab2fd4967b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSWord2016.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>7611021343b7412deda109275c7850de49c7e2cd30d98343425be9151093de00</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.MicrosoftWord</key>
+			<dict>
+				<key>git_hash</key>
+				<string>511a9b68639ddc23a516742c42ba1a5034dd7b10</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Microsoft Word/Microsoft Word.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>3e80c6ea9d72a496945b4eae7be4e09a382b254fb01d2f4d07dbcb6a629ee072</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

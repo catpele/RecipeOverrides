@@ -16,8 +16,45 @@
 		<string>Collaboration</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-selfservice.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.Skype</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Skype</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d90de42ea54f8aee351d71f4ad694735285f2679</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Skype/Skype.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>76dfdf1d0d3b011df75a58e41c4e190156cd6be119176d5bf9d4e57f83bf6b2a</string>
+			</dict>
+			<key>com.github.autopkg.pkg.Skype</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cb1ffba34aeafc5c96bdca9c15da65b957c50e2e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Skype/Skype.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>3648a41ea38283a835a90163497cc53b5106b89277bc2a062b05cba7fe20f598</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Skype</key>
+			<dict>
+				<key>git_hash</key>
+				<string>58dcc808b926629bca6a074d62c3f7b970bd8d6e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Skype/Skype.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>66a5c9760cf5b83d349eda5b4f5eb6dcfb04a1c22529d123a1f64bfb619a2917</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

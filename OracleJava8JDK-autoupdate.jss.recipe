@@ -14,8 +14,45 @@
 		<string>Auto Update</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-autoupdate.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.OracleJava8JDK</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.hansen-m.download.OracleJava8JDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>21e64259bdd258ef432b8d3611aa24be6ea15e84</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes/Oracle/OracleJava8JDK.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5303e56cb3111b82f97114c01d8aadfa2e41c3dfcc7edd5cdb998f1fe02b9ef4</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.OracleJava8JDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Oracle Java 8 JDK/Oracle Java 8 JDK.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>47cae676ee447c079b07ca1c2dc1e5b427a8f594b43d1e93b4bb915e237bb25e</string>
+			</dict>
+			<key>com.github.novaksam.pkg.OracleJava8JDK</key>
+			<dict>
+				<key>git_hash</key>
+				<string>02f59d983f2c3c2aefcdfecc4cb828f7529bcadc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/Recipes - pkg/OracleJava8JDK.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>bc3267db9b64e6f1679860ae665b8ed36d5ae8a05ed1c0ff542ba9e8f68cd39a</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

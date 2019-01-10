@@ -16,8 +16,45 @@
 		<string>Utility</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-selfservice.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.catpele.jss.NavicatPremium11</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.catpele.download.NavicatPremium11</key>
+			<dict>
+				<key>git_hash</key>
+				<string>dc67ae8401e3f8be93c8ea9af7054c484ea42a9f</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/NavicatPremium/NavicatPremium11.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>02f0544f90b0b9cf1ee2fcfb75b9c370cb3bb1597fb4feb5cd21b8ed8baadc60</string>
+			</dict>
+			<key>com.github.catpele.jss.NavicatPremium11</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e719e57e519c777e9be89616bc0186f1bc4ad7dd</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/NavicatPremium/NavicatPremium11.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>7d015d0176f1b3df0a6bc2709dedd5e943a325bc450ad49efd56fd5afe038887</string>
+			</dict>
+			<key>com.github.catpele.pkg.NavicatPremium11</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e719e57e519c777e9be89616bc0186f1bc4ad7dd</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/NavicatPremium/NavicatPremium11.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>b37fd0b8be03265b71615ef2563d3fceac810adc70ae335b6f485fe281ad186f</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

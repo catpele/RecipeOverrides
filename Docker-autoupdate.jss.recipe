@@ -14,8 +14,55 @@
 		<string>Auto Update</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-autoupdate.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.Docker</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.homebysix.FindAndReplace/FindAndReplace</key>
+			<dict>
+				<key>git_hash</key>
+				<string>59de29851dc67d27cc12509875f1b658201d48f0</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/FindAndReplace/FindAndReplace.py</string>
+				<key>sha256_hash</key>
+				<string>9625ab8ab9c84536e77f167d7db6533e5ebb90db4d763fae8a1f7a8167dd0664</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.chilcote.download.Docker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>bee94c240d2acd429922fa09b7115ae6508ba01a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.chilcote-recipes/Docker/Docker.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>8e99503cc6b8e2d59a4a7ada035a6c35e9b371707ec8870280455322afe92ea6</string>
+			</dict>
+			<key>com.github.chilcote.pkg.Docker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7880956bc18b3f3c19993b89497d13bcee4b43e4</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.chilcote-recipes/Docker/Docker.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>79abfa1bf7bb78884b22b6f8522252fc0d32d234556b61504d220f67e73acf21</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Docker</key>
+			<dict>
+				<key>git_hash</key>
+				<string>0ed7bb694310c0ab46a6225bae07ca5b2df8f1cc</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Docker/Docker.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>5737bf13933d43bd84f865cb4b484c8a69d4ef7cdb02f94316f9ad3683a0ee21</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Authy-selfservice</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-selfservice.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.nzmacgeek.pkg.authy</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.nzmacgeek.download.authy</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3a3de6c6bdc72d3cb4c7106a1beb98b3e2a28451</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.nzmacgeek-recipes/Authy/Authy.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>d6bf727db113544a26aa96453880430c10b1fb97dd255d2e0a08de9473c5d72e</string>
+			</dict>
+			<key>com.github.nzmacgeek.pkg.authy</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3a3de6c6bdc72d3cb4c7106a1beb98b3e2a28451</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.nzmacgeek-recipes/Authy/Authy.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>4efada7dd8bccac589a9c7976f006fa85b890d567f130e4cdf179b19e00e058b</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

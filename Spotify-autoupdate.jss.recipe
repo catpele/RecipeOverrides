@@ -14,8 +14,55 @@
 		<string>Auto Update</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-autoupdate.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.Spotify</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.homebysix.VersionSplitter/VersionSplitter</key>
+			<dict>
+				<key>git_hash</key>
+				<string>689fdf57c36001dee009e314f7e2b07e79caa073</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/VersionSplitter/VersionSplitter.py</string>
+				<key>sha256_hash</key>
+				<string>a39d9f307b5c2669d91c3e642015e41836f8fa42bfd9fbac0253e762257b1373</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Spotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4f69d86d0d09b299d47b0f0197a03d97a67ad4ef</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Spotify/Spotify.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>71b0fbf50f45a1b55b1cb483811bd129c590bc37e1bbed17defd1ad5609f5169</string>
+			</dict>
+			<key>com.github.homebysix.pkg.Spotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ea148506a4a17a8be1b108eee20577fd055b31c1</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Spotify/Spotify.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>0ca8a66ee1c786625c7a7cb0a441d3167f43e25d6a15352fd3291c2588776b25</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Spotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>52bea844e2babeaac6b678ead3aaac4146126f81</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Spotify/Spotify.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>92a2ecb14f4e80cb48e14e6150815ea4bf33324cf8511468407948067a3dcda8</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

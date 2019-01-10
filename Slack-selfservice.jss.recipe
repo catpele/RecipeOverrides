@@ -16,8 +16,45 @@
 		<string>Productivity</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-selfservice.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.Slack</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.Slack</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5124bee73a07813ad31261e94ccfbb24990940c2</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Slack/Slack.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>a351e4889e2b36fe0f7232c097f5c823043fd436a6e4da40e64eed488e7a2776</string>
+			</dict>
+			<key>com.github.killahquam.download.slack</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4498bc796d2a730236fee65af03ab6eca8ebe140</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.killahquam-recipes/Slack/Slack.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>22b579a5f12fb18798a303af72facd23beca0c94cc30757aafbc0776c9085b25</string>
+			</dict>
+			<key>com.github.killahquam.pkg.slack</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4498bc796d2a730236fee65af03ab6eca8ebe140</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.killahquam-recipes/Slack/Slack.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>afb12cbbca11367ac52f723906f30b01db3eefc23df29a2597878d8e679feb24</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

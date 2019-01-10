@@ -16,8 +16,45 @@
 		<string>Collaboration</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-selfservice.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.HipChat</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.arubdesu.download.HipChat</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4d1dd43da75f73c6d3c26ba928f8259ff1e5dd2c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes/Atlassian/HipChat.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>453588b99021950fdb6c53e6d14ce9649c3c1d26d3256cac476be004399c58ee</string>
+			</dict>
+			<key>com.github.arubdesu.pkg.HipChat</key>
+			<dict>
+				<key>git_hash</key>
+				<string>6e1b7f52e62cf6052e2c855787e9611f43e89aba</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes/Atlassian/HipChat.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>c7ea1b60ebc73f14cda074219aa74502006d8993a8600639ca2cfdbe6aa66c51</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.HipChat</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/HipChat/HipChat.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>a47e7127c5e17f81d0751ebbe8bd3c37426751583e5ec75d72fbc981ba99061e</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

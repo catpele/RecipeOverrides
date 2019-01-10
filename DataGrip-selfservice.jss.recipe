@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.DataGrip-selfservice</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications: Database Tools</string>
+		<key>GROUP_NAME</key>
+		<string></string>
+		<key>GROUP_TEMPLATE</key>
+		<string></string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Applications: Database Tools</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-selfservice.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.catpele.jss.DataGrip</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>DataGripURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>839570d0180ed622ba36ad22ef41ed6a7bde0fbd</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/DataGrip/DataGripURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>aeca7a8e143ca22583167f3133433c45f7377520fe084859a6feb5dd23d7e22e</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.catpele.download.DataGrip</key>
+			<dict>
+				<key>git_hash</key>
+				<string>839570d0180ed622ba36ad22ef41ed6a7bde0fbd</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/DataGrip/DataGrip.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>90843611924328c34604a0f8580e09a11082e3e14dc59be7543bd23e1a562dbe</string>
+			</dict>
+			<key>com.github.catpele.jss.DataGrip</key>
+			<dict>
+				<key>git_hash</key>
+				<string>839570d0180ed622ba36ad22ef41ed6a7bde0fbd</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/DataGrip/DataGrip.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>72edd8818e83b36d9351efb2c4f0b802c376c47708342cffab4eb52b35734049</string>
+			</dict>
+			<key>com.github.catpele.pkg.DataGrip</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f9d4c6bb6563bd626612ba4f2ec6bc3ea7dc3216</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/DataGrip/DataGrip.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>af9da357bb9786994e9d9bd675b6089022a8068b95f172e7daf642ed044b4518</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

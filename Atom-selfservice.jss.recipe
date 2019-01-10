@@ -16,8 +16,45 @@
 		<string>IDEs and Text Editors</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate-selfservice.xml</string>
+	    <key>OS_REQUIREMENTS</key>
+        <string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.Atom</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.Atom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>213285b15e17e3a443017e281c2aff7bfbbb7804</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Atom/Atom.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>b02bdc5428532b0fd0781b26e52b45089b92f66f1fecd2b77473a6985f54e483</string>
+			</dict>
+			<key>io.github.hjuutilainen.download.Atom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>89bba55431c07e37bb498cc476ba2366dcf52469</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/GitHub/Atom.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>13e8f5c01aed58f4497d1ac45e3f72409d86d3104dae4a38d33dad8bc481b3e9</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.Atom</key>
+			<dict>
+				<key>git_hash</key>
+				<string>39b62202a0190f8fd029220b7829b8793635efc3</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/GitHub/Atom.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>5b11aa690ccd1c4cfff85e80e8a7e3ad394d985522325d163ad545bf2cc29877</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>
