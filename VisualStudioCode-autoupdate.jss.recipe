@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VisualStudioCode-autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-autoupdate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-autoupdate.xml</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Auto Update</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.catpele.jss.VisualStudioCode</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.catpele.jss.VisualStudioCode</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f9d4c6bb6563bd626612ba4f2ec6bc3ea7dc3216</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/VisualStudioCode/VisualStudioCode.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>cad6ffcec7aac24a719e9816f88636b24fe7c9dafec795bdd2141d3ad5d4838c</string>
+			</dict>
+			<key>com.github.killahquam.download.visualstudiocode</key>
+			<dict>
+				<key>git_hash</key>
+				<string>57dc475b4525b5ba1c8dc53ad49ae728ab9a11fa</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.killahquam-recipes/VisualStudioCode/VisualStudioCode.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>46993b55946e5f5969d51886c496fef46f297b6e8e618d445e362c313d2bc831</string>
+			</dict>
+			<key>com.github.killahquam.pkg.visualstudioscode</key>
+			<dict>
+				<key>git_hash</key>
+				<string>28cf013fde7599b58452170436ab9c50100c308c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.killahquam-recipes/VisualStudioCode/VisualStudioCode.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>00d3a5726136abc5430bc8a22710c6aa21b22a6371691258641ca24e6e24b95e</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

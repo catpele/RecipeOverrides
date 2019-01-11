@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.jss.Authy-selfservice</string>
+	<string>local.jss.Authy-autoupdate</string>
 	<key>Input</key>
 	<dict>
-		<key>CATEGORY</key>
-		<string>Applications: Authentication</string>
 		<key>GROUP_NAME</key>
-		<string></string>
+		<string>%NAME%-autoupdate</string>
 		<key>GROUP_TEMPLATE</key>
-		<string></string>
+		<string>SmartGroupTemplate-autoupdate.xml</string>
 		<key>OS_REQUIREMENTS</key>
 		<string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Applications: Authentication</string>
+		<string>Auto Update</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate-selfservice.xml</string>
+		<string>PolicyTemplate-autoupdate.xml</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.catpele.jss.Authy</string>

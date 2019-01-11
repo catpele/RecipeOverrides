@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Kitematic-autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-autoupdate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-autoupdate.xml</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Auto Update</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.catpele.jss.Kitematic</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.catpele.download.Kitematic</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2a7a64d55c6641407e083bf8801b094f5310aa30</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/Kitematic/Kitematic.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c8d25750760e097e2ad453347b2ac5ca2da4e81830aa0fc2299e10e5d4b47b42</string>
+			</dict>
+			<key>com.github.catpele.jss.Kitematic</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ac90198653c70e05ef38334177eaf124b10e4573</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/Kitematic/Kitematic.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>6567356a110a6666414c2fedbfbe61c4d6057ae475b4485c67a8a7816b55f52a</string>
+			</dict>
+			<key>com.github.catpele.pkg.Kitematic</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f9d4c6bb6563bd626612ba4f2ec6bc3ea7dc3216</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/Kitematic/Kitematic.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>da895512e1140f4704992eb8ec61425564dc9261de4d1ef84af2bb3b234fe3f6</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

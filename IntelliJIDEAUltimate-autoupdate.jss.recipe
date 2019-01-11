@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.IntelliJIDEAUltimate-autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-autoupdate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-autoupdate.xml</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Auto Update</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.catpele.jss.IntelliJIDEAUltimate</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>IntellijURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d8c074b174d4004a30710eb258a8759fcaf47a5b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/IntelliJIDEAUltimate/IntellijURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>c4fd17efb59b6c7f1a335880068a6471cc108114dcd90d23a59b5f0a4c683015</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.catpele.download.IntelliJIDEAUltimate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>28dd3a4714510838f0f3cb2bf82a57a12fd3ee2a</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/IntelliJIDEAUltimate/IntellijIDEAUltimate.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>9a43ea70557680f98c7c18bfb4dbff09ac4208a6c233f141df814bca58ae8ed6</string>
+			</dict>
+			<key>com.github.catpele.jss.IntelliJIDEAUltimate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f9d4c6bb6563bd626612ba4f2ec6bc3ea7dc3216</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/IntelliJIDEAUltimate/IntellijIDEAUltimate.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>b6c7ea25ce351e0453abc5fc58bc52b621cdf276d836ae8822ae11096fe8c7c8</string>
+			</dict>
+			<key>com.github.catpele.pkg.IntelliJIDEAUltimate</key>
+			<dict>
+				<key>git_hash</key>
+				<string>cd2cf922e01fa30f51e9232b36be7177be338f15</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/IntelliJIDEAUltimate/IntellijIDEAUltimate.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>e325839646d80957b7584ba45a096bd51e92214b52b60f6a1ea4e8a6e84543e0</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

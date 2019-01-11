@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Postman-autoupdate</string>
+	<key>Input</key>
+	<dict>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-autoupdate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate-autoupdate.xml</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.14.x,10.13.x,10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Auto Update</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate-autoupdate.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.catpele.jss.Postman</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.bnpl.autopkg.download.postman</key>
+			<dict>
+				<key>git_hash</key>
+				<string>014c00e7d599190fb358aeba6bf4ce258a707230</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bnpl-recipes/Postman/Postman.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>69c4bd135e5d13c759ac2a64eb811023181fa15cbd7c706d762273cbbf413a22</string>
+			</dict>
+			<key>com.github.bnpl.autopkg.pkg.postman</key>
+			<dict>
+				<key>git_hash</key>
+				<string>73351379497978d566e80b2776bc7d18e76f6840</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.bnpl-recipes/Postman/Postman.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f67f181e1b8437eb95b47654186198674d0ff90fd74bdd7348d63c03ca472699</string>
+			</dict>
+			<key>com.github.catpele.jss.Postman</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f9d4c6bb6563bd626612ba4f2ec6bc3ea7dc3216</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.catpele.autopkg/Postman/Postman.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>8d5a83ff1ab7aa1019b91572589345c7c99124e77a1d978258c6fe867d80858c</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
